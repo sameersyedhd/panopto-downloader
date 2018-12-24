@@ -1,0 +1,26 @@
+{
+    "manifest_version":2,
+    "name":"practice 2",
+    "version": "1.0",
+    "content_scripts":[
+        {
+            "matches":[
+                "https://monash-panopto.aarnet.edu.au/Panopto/Pages/Home.aspx"
+            ],
+            "js":["jquery.js","content.js","select2.min.js","tingle.min.js"],  
+            "css": ["css/select2.min.css","css/firebaseui.css","css/tingle.min.css"]     
+        }
+    ],
+
+    "background": {
+        "scripts":["background.js"]
+    },
+
+    "browser_action": {
+        "default_icon":"icon.png",
+        "default_title":"okay"
+    },
+    "web_accessible_resources": [
+        "icon.png"
+        ]
+}
