@@ -8,7 +8,7 @@ This is a Google Chrome extension designed for students who are tired of having 
 3. Trigger a batch download
 
 <a href="https://ibb.co/hL5Hk8c"><img src="https://i.ibb.co/jbKGd4z/Screen-Shot-2018-12-26-at-12-09-07-am.jpg" alt="Screen-Shot-2018-12-26-at-12-09-07-am" border="0"></a>
-alt="screenshot"/>
+
 
 ## Implementation
 
